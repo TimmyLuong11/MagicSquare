@@ -20,6 +20,9 @@ public class Main
 				myArray[rows][cols] = scan.nextInt();
 			}
 		}
+		System.out.println("Which col to sum");
+		int col = scan.nextInt();
+		Magic sumCol = sumCol(myArray, col);
 		
 		Magic square = new Magic(myArray);
 		if(square.isMagic)
@@ -33,4 +36,10 @@ public class Main
 		System.out.println(square);
 		scan.close();
 	}
+
+	
+
+	
+
+	
 }

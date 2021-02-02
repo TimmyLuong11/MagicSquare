@@ -21,7 +21,7 @@ public class Main
 			}
 		}
 		
-		/*Magic square = new Magic(myArray);
+		Magic square = new Magic(myArray);
 		if(square.isMagic)
 		{
 			System.out.println("Yes it is a Magic Square");
@@ -30,15 +30,7 @@ public class Main
 		{
 			System.out.println("No it is NOT a Magic Square");
 		}
-		System.out.println(square);*/
-		for(int a = 0; a < rowcol; a++)
-	      {
-	         for(int b = 0; b < rowcol; b++)
-	         {
-	            System.out.print(myArray[a][b] + "\t");
-	         }
-	         System.out.println();
-	      }
+		System.out.println(square);
 		scan.close();
 	}
 }
